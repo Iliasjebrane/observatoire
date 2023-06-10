@@ -1,0 +1,32 @@
+#sidebar{
+    padding: 5px;
+}
+#sidebar ul li a{
+   color: #fff;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+
+}
+#sidebar ul li{
+    cursor: pointer;
+    transition: all .3s;
+    list-style: none;
+
+}
+#sidebar ul li:hover,#sidebar ul li.active{
+    color: #11101d;
+    background: #fff;
+}
+#sidebar ul li:hover * ,#sidebar ul li.active *{
+    color: black;
+}
+#logo{
+
+    color:  #fff;
+    
+}
+
+
+
+ 

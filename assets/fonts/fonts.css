@@ -1,0 +1,25 @@
+
+/*
+* Droid Arabic Naskh (Arabic) http://www.google.com/fonts/earlyaccess
+*/
+
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(DroidNaskh/Regular/DroidNaskh-Regular.eot);
+  src: url(DroidNaskh/Regular/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(DroidNaskh/Regular/DroidNaskh-Regular.woff2) format('woff2'),
+       url(DroidNaskh/Regular/DroidNaskh-Regular.woff) format('woff'),
+       url(DroidNaskh/Regular/DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 700;
+  src: url(DroidNaskh/Normal/DroidNaskh-Bold.eot);
+  src: url(DroidNaskh/Normal/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+       url(DroidNaskh/Normal/DroidNaskh-Bold.woff2) format('woff2'),
+       url(DroidNaskh/Normal/DroidNaskh-Bold.woff) format('woff'),
+       url(DroidNaskh/Normal/DroidNaskh-Bold.ttf) format('truetype');
+}

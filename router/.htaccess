@@ -1,0 +1,8 @@
+RewriteEngine On
+
+Options -Indexes
+
+RewriteCond %{REQUEST_URI} !^/observatoire/assets.*$ [NC]
+RewriteCond %{REQUEST_URI} !^/observatoire/storage.*$ [NC]
+
+RewriteRule ^(.*)$ index.php [L]
